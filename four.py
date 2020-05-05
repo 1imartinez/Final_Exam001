@@ -17,7 +17,13 @@
 
 
 def fun():
-    pass
+    with open (four.txt) as fin:
+    for line in fin:
+       for achar in line:
+        if achar.isupper():
+            message += achar
+    return message
+    
 
 if __name__ == "__main__":
-    fun()
+    print(fun())
