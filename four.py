@@ -18,7 +18,7 @@
 #Hidden Message found
 def fun():
     message = ""
-    with open (four.txt) as fin:
+    with open ('four.txt') as fin:
     for line in fin:
        for achar in line:
         if achar.isupper():
