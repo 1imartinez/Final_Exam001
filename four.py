@@ -15,7 +15,7 @@
 
 """
 
-
+#Hidden Message found
 def fun():
     with open (four.txt) as fin:
     for line in fin:
