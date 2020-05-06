@@ -12,7 +12,7 @@ def tell_story():
     # Generate  as many other objects as you want
 
 
-     beetle = Beetle()
+    beetle = Beetle()
     chipmunk = Chipmunk()
     snake = Snake()
     cobra = Cobra()
