@@ -12,11 +12,22 @@ def tell_story():
     # Generate  as many other objects as you want
 
 
-
+     beetle = Beetle()
+    chipmunk = Chipmunk()
+    snake = Snake()
+    cobra = Cobra()
+    goat = Goat()
+    sheep = Sheep()
+    donkey = Donkey()
+    pig = Pig()
 
     # Have objects interact
 
-
+    
+    b.eat(chipmunk)
+    b.eat(goat)
+    b.eat(sheep)
+    
     # replace the replace_me_object
     replace_me_object = b
     final_phrase = replace_me_object.talk()
